@@ -10,8 +10,8 @@ cask "flapjack" do
   app "Flapjack.app"
 
   caveats <<~EOS
-    Flapjack is ad-hoc signed (not notarized). Install with:
-      brew install --cask --no-quarantine flapjack
-    or right-click > Open on first launch.
+    Flapjack is ad-hoc signed (not notarized), so Gatekeeper will block the
+    first launch. Either right-click > Open once, or clear quarantine with:
+      xattr -dr com.apple.quarantine /Applications/Flapjack.app
   EOS
 end
