@@ -1,6 +1,6 @@
 cask "flapjack" do
-  version "1.10.0"
-  sha256 "ee8f4c548e17e98de9067035f89559559e8e608dbb9ee871b7c3b1992f13bf66"
+  version "1.11.0"
+  sha256 "6655346420fc102e1d31d811a65b6792a26aecaaa2cb670a67d13dc0a6f5e8da"
 
   url "https://github.com/s4lly/flapjack/releases/download/v#{version}/Flapjack-#{version}.zip"
   name "Flapjack"
